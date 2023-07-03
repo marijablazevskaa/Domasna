@@ -1,0 +1,355 @@
+#header-nav ul li{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    margin-top: 25px;
+
+
+}
+#header-nav ul li a:hover {
+    text-decoration: underline;
+}
+#header{
+    background: url("../untitled13/sliki/833c50.png");
+
+    height: 100px;
+}
+
+
+body{
+    font-family: "Source Sans Pro";
+    color: #efeadd;
+}
+#ime h1{
+    float: left;
+    margin-left: 20px;
+
+}
+#header-nav ul li a{
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #efeadd;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#ime h1 a {
+    color: #efeadd;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+body {
+    background: #833c56;
+    background: linear-gradient(#833c56, #efeadd);
+    border-radius: 6px;
+    height: 1000px;
+}
+.bod{
+    height: 1800px;
+}
+
+#about h1 {
+    float: left;
+    margin-left: 1050px;
+    padding-top: 20px;
+}
+#text {
+    margin-top: 110px;
+    width: 900px;
+    font-size: 25px;
+    float: left;
+    margin-left: -450px;
+    text-align: justify;
+    padding-top: 40px;
+}
+#t{
+    width: 900px;
+    font-size: 25px;
+    float: left;
+
+    padding-top: 30px;
+    margin-left: -900px;
+    margin-top: 350px;
+    text-align: justify;
+}
+
+#t a,#text a{
+    color: #833c56;
+    text-decoration: none;
+}
+#t a:hover,#text a:hover{
+    text-decoration: none;
+    color: #efeadd;
+
+}
+.ti a{
+    text-decoration: none;
+}
+.ti a:hover{
+    border: #833c56;
+    text-decoration: underline;
+}
+#dela{
+    margin-top: -70px;
+    height: 550px;
+    text-align: center;
+    padding-top: 100px;
+}
+.d{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #efeadd;
+    padding: 5px;
+    width: 20%;
+    margin: 10px;
+
+}
+.da{
+    border-radius: 10px;
+    background-color: #efeadd;
+    padding: 5px;
+    float: left;
+    margin-left: 170px;
+    width: 20%;
+    margin-top: 200px;
+}
+.zip{
+    font-size: 20px;
+    text-align: center;
+}
+
+.ti a, .d h2, .zip{
+    color: #833c56;
+}
+#pro{
+    float: left;
+    padding-top: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right: 200px;
+    height: 80vh;
+}
+
+.form {
+    text-align: center;
+    padding-top: 60px;
+    background-color: #833c56;
+    width: 800px;
+    border-radius: 5px;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 60px;
+
+}
+
+
+
+.form label {
+    display: block;
+    padding-top: 10px;
+    float: left;
+    margin-bottom: 15px;
+    font-size: 25px;
+
+}
+
+.form input[type="text"],
+.form textarea {
+    width: 100%;
+
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 13px;
+    border: 2px solid #833c56;
+
+
+}
+.form input[type="text"]{
+    height: 10px;
+}
+
+
+.form button {
+    padding: 20px 30px;
+    background-color: #efeadd;
+    color: #833c56;
+    border-radius: 3px;
+
+}
+.form button:hover{
+    background-color: #e1b5cd;
+}
+
+.contact{
+    float: left;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-align: center;
+}
+form textarea{
+    height: 100px;
+}
+.contact h1{
+    font-size: 60px;
+}
+.contact h2{
+    font-size: 40px;
+}
+.contact p{
+    font-size: 30px;
+}
+
+.experience h1, .education h1, .skills h1, .languages h1{
+    float: left;
+    margin-left: 100px;
+    font-size: 40px;
+    color: #833c56;
+}
+
+.education{
+    margin-top: 900px;
+}
+.skills h1{
+    float: left;
+    margin-top: 180px;
+    margin-left: -175px;
+}
+.languages h1{
+    float: left;
+    margin-top: 330px;
+}
+#experince{
+    float: right;
+    width: 1600px;
+    font-size: 25px;
+    color: #833c56;
+    border-radius: 10px;
+    background-color: #efeadd;
+    padding: 5px;
+    margin: 10px;
+    height: 830px;
+    text-align: justify;
+}
+
+#education, #skills, #languages{
+    float: right;
+    width: 1600px;
+    font-size: 25px;
+    color: #833c56;
+    border-radius: 10px;
+    background-color: #efeadd;
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+}
+.experience{
+    margin-top: 45px;
+}
+
+table {
+    border-collapse: collapse;
+}
+th,
+td {
+    border: 1px solid #833c56;
+    padding: 10px 15px;
+}
+th {
+    font-weight: bold;
+}
+.books, .books1,.books2, .books3{
+    display: inline-block;
+    float: left;
+    width: 700px;
+    height: 500px;
+    font-size: 25px;
+    color: #833c56;
+    border-radius: 10px;
+    background-color: #efeadd;
+    padding: 5px;
+    margin: 20px 10px;
+    text-align: justify;
+}
+.books h3, .books2 h3, .books3 h3, .books1 h3{
+    color: #833c56;
+    width: 400px;
+    float: right;
+    margin-right: 5px;
+    padding-top: -15px;
+    margin-top: -0px;
+}
+.b, .b1{
+    width: 400px;
+    float: right;
+    margin-top: -380px;
+    margin-right: 10px;
+    padding-top: 15px;
+    font-size: 24px;
+}
+.b1{
+    margin-top: -340px;
+}
+.main {
+    height: 304px;
+    width: 822px;
+    padding-top: 350px;
+    background: url("../untitled13/sliki/floral-hand-drawn-frame-border-decorative-design-element-free-vector-removebg-preview.png") no-repeat;
+    margin: auto;
+
+}
+.main h1{
+    margin-left: 40px;
+    color: black;
+    text-align: center;
+}
+.main h2{
+    height: 304px;
+    width: 822px;
+    transform: rotate(180deg);
+    padding-top: 30px;
+    background: url("../untitled13/sliki/floral-hand-drawn-frame-border-decorative-design-element-free-vector-removebg-preview.png") no-repeat;
+    margin: auto;
+}
+.main p{
+    float: left;
+}
+
+.footer1, .footer, .footer2, .footer3{
+    background: url("../untitled13/sliki/833c50.png");
+    margin-top: auto;
+    float: left;
+    height: 90px;
+    color: #efeadd;
+    text-align: center;
+    width: 2290px;
+    font-size: 19px;
+}
+.footer2, .footer3{
+    margin-top: 135px;
+    width: 2260px;
+}
+.footer3{
+    margin-top: 900px;
+}
+.footer{
+    margin-top: 460px;
+}
+.footer1{
+    margin-top: 200px;
+}
+
+.footer3 a, .footer a, .footer2 a, .footer1 a{
+    color: #efeadd;
+    text-decoration: none;
+}
+.footer3 a:hover, .footer a:hover, .footer2 a:hover, .footer1 a:hover{
+    text-decoration: underline;
+}
+.books img:hover, .books3 img:hover, .books2 img:hover, .books1 img:hover{
+    opacity: .500;
+}
